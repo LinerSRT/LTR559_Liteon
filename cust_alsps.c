@@ -10,8 +10,8 @@ static struct alsps_hw cust_alsps_hw = {
     .power_vol  = VOL_DEFAULT,          /*LDO is not used*/
     .als_level  = { 5, 500,  2000,   20000,   65535, 200000,  0, 0, 0,  0, 0, 0, 0, 0, 0},
     .als_value  = {1, 1500, 10000, 50000, 100000, 200000,  0,  0, 0,  0,  0,  0,  0,  0,  0, 0},
-    //.ps_threshold_high = 0, //Датчик работает,
-    //.ps_threshold_low = 0,  //но не корректно. Данные в положении "1" нестабильны
+    //.ps_threshold_high = 0,,
+    //.ps_threshold_low = 0, 
     //.ps_threshold = 1000,
 };
 struct alsps_hw *get_cust_alsps_hw(void) {
